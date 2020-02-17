@@ -1,0 +1,9 @@
+Zaimplementuj funkcję `Person` przyjmującą dwa ciągi znaków jako argumenty, które staną się polami tej klasy o nazwach `name` i `surname`.
+Zaimplementuj funkcję `createPeople`, która dla przekazanej tablicy ciągów znaków zwróci tablicę obiektów klasy typu `Person`,
+ale tylko w przypadku kiedy ciąg znaków to dwa wyrazy zaczynające się wielką literą.
+
+Przykład użycia:
+```
+> createPeople(['Sean	Miller', 'adam', 'Russell', 'michael lee', 'Lisa Price']);
+< [Person {name: 'Sean', surname: 'Miller'}, Person {name: 'Lisa', surname: 'Price'}]
+```

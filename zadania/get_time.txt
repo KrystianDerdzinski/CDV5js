@@ -1,0 +1,4 @@
+Zaimplementuj funkcję `getTime`, która zwraca aktualny czas w formacie HH:mm:ss.
+Aby uzyskać informację o aktualnym czasie użyj dostępnej globalnie klasy `Date`.
+Zapoznaj się z dokumentacją `Date` dostępną na MDN Web Docs.
+Wykorzystaj wbudowaną metodę `setInterval` aby co sekundę wyświetlać aktualny czas.

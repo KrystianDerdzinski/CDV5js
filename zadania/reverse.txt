@@ -1,0 +1,8 @@
+Zaimplementuj funkcję o nazwie `reverse`, który przyjmuje ciąg znaków i zwraca go w odwrotnej kolejności.
+
+Przykład użycia:
+
+```js
+> reverse('Słowo')
+< "owołS"
+```

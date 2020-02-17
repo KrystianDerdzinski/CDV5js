@@ -1,0 +1,8 @@
+Zaimplementuj funkcję `union` która przyjmuje dwie tablice a następnie zwraca ich sumę,
+czyli tablicę zawierającą elementy obydwu tablic wejściowych, bez powtórzeń.
+
+Przykład użycia:
+```
+> union(['a', 'e', 'g', 'b'], ['c', 'g', 'a']);
+< ['a', 'e', 'g', 'b', 'c']
+```

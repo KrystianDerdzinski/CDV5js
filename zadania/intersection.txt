@@ -1,0 +1,8 @@
+Zaimplementuj funkcję `intersection`, która przyjmuje dwie tablice a następnie zwraca nową tablicę,
+zawietającą tylko te elementy, które występują w obydwu tablicach wejściowych.
+
+Przykład użycia:
+```
+> intersection(['a', 'd', 'f'], ['g', 'd', 'a']);
+< ['a', 'd']
+```

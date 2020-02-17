@@ -1,0 +1,10 @@
+Zaimplementuj funkcję `toTitleCase`, która przyjmuje ciąg znaków, zmienia pierwszą literę każdego wyrazu na wielką, a wszystkie pozostałe na małe.
+Funkcja powinna zwracać wynik w postaci pojedynczego ciągu znaków.
+
+
+Przykład użycia:
+
+```
+> toTitleCase('wolfgang AMADEUSZ moZARt');
+< "Wolfgang Amadeusz Mozart"
+```

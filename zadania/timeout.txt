@@ -1,0 +1,2 @@
+Zaimplementuj funkcję `setRandomTimeout` przyjmującą jako argument jedną funkcję wywołania zwrotnego (callback),
+która zostanie wywołana po losowym czasie.

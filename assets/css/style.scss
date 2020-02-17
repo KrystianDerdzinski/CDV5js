@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(teal, white);
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+}
+
+.timeResult {
+    font-size: 30px;
+}
+
+.commonInArrays {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    .card {
+        flex-basis: 20%;
+        min-height: 300px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        input {
+            text-align: center;
+            &::placeholder{
+                text-align: left;
+            }
+        }
+        button{
+            background-color: #91c8c8;
+            border: 0;
+            border-radius: 15px;
+            padding: 0.5em 0.5em;
+            max-width: 90%;
+            margin: 10px auto;
+            outline: none;
+            cursor: pointer;
+        }
+
+    }
+    * {
+        display: block;
+    }
+}
+
+.mini-header {
+    font-size: 12px;
+    display: block;
+    padding: 0.5em 1em;
+
+}
+
+.listElement{
+    display: block;
+    padding: 0.5em 1em;
+    border-bottom: 1px solid lightgray;
+}
+
+.go_compare {
+    // max-height: 2em;
+    flex-basis: 15%;
+    // transform: rotate(90deg) translateX(15vh);
+    padding: 1em;
+    background-color: transparent;
+    border: teal solid 3px;
+    border-radius: 10px;
+    transition: transform .3s ease-in-out;
+    &:hover{
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+}
